@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme{
+    --color-wildcat: #4E2A84;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size:xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}

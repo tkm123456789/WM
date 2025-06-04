@@ -14,7 +14,7 @@
                 </div>
                 <div class="grid grid-cols-3 gap-4 mt-8">
                     @foreach($posts as $post)
-                    <div class="bg-gray-300 aspect-square border-2 border-gray-400 rounded-lg text-center p-2">
+                    <div class="bg-white aspect-square border-2 border-gray-400 rounded-lg text-center p-2">
                         <h1>{{ $post->title }}</h1>
                         <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}" class="h-40 w-auto mx-auto mt-2 object-contain">
                         <span class="font-bold underline">Item Information</span>
